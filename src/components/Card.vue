@@ -1,16 +1,14 @@
 <script setup>
-import { defineProps } from 'vue';
-
 defineProps({
-    bg: {
-        type: String,
-        default: '#eaeaed'
-    }
+  bg: {
+    type: String,
+    default: "bg-[#eaeaed]" // Ensure this matches Tailwind format
+  }
 });
 </script>
 
 <template>
-    <div div :class="`${bg} p-6 rounded-lg shadow-md`">
-        <slot></slot>
-    </div>
+  <div :class="`${bg} p-6 rounded-lg shadow-md`">
+    <slot></slot>
+  </div>
 </template>
