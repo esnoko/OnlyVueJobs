@@ -3,7 +3,7 @@ import Card from "./Card.vue";
 </script>
 
 <template>
-  <section class="bg-[#e9e3d5] py-4 border-b border-[#033043]">
+  <section class="bg-[#e9e3d5] py-4">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
         <Card>
